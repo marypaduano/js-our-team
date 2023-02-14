@@ -1,0 +1,12 @@
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.team {
+    padding: 50px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
