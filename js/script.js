@@ -1,5 +1,5 @@
 console.log('team')
-
+//Creare l’array di oggetti con le informazioni fornite
 const team = [
     {
       name: "Wayne Barnett",
@@ -32,3 +32,18 @@ const team = [
       photo: "img/barbara-ramos-graphic-designer.jpg",
     }
   ]
+
+  console.log(team)
+
+  for (let key in team){
+    console.log(team[key])
+ }
+
+  //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+ for (let i = 0; i < team.length; i++) {
+	const memberTeam = team[i]
+	const name = memberTeam.name
+	const role = memberTeam.role
+	const photo = memberTeam.photo
+	console.log(`Nome ${name} ruolo ${role} foto: ${photo})`)
+}
