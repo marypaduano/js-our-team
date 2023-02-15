@@ -5,8 +5,6 @@
     row-gap: 10px;
 }
 
-.team {
-    padding: 50px;
-    background-color: aquamarine;
-    border: 1px solid black;
+img{
+    max-width: 100%;
 }
